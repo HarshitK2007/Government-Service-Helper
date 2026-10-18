@@ -142,5 +142,3 @@ Government Service Helper was developed by our team to explore how AI-powered we
 Our focus is on a practical problem: helping people find relevant information without having to manually search through multiple pages first.
 
 **Built for AZINHACK '26 — Open Innovation**
-
-Repository: https://github.com/HarshitK2007/Government-Service-Helper
