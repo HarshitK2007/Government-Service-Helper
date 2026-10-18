@@ -30,6 +30,8 @@ if state and dist:
 
                 if not(url):
                     url = uGO.find_website(need, state, dist)
+                    if "https:" not in url:
+                        raise ValueError
                     uUM.save_url(need, state, dist, url)
 
             except Exception as e:
