@@ -23,30 +23,30 @@ if need and state and dist:
 
     if st.button("Search"):
 
-        with st.spinner("Finding government website..."):
+        try:
+            with st.spinner("Finding government website..."):
 
-            try:
                 url = uUM.get_url(need, state, dist)
 
                 if not(url):
                     url = uGO.find_website(need, state, dist)
+                    
                     if "https:" not in url:
                         raise ValueError("No valid website URL was returned.")
+                        
                     uUM.save_url(need, state, dist, url)
 
-            except Exception as e:
-                st.error(f"Error in finding the government website, {e}")
-                st.stop()
+        except Exception as e:
+            st.error(f"Error in finding the government website, {e}")
+            st.stop()
 
         try:
-            if url:
+            with st.spinner(f"TinyFish is reading {url}"):
+                    temp = uTF.ask_tinyfish(url, need, state, dist)
 
-                with st.spinner(f"TinyFish is reading {url}"):
-                        temp = uTF.ask_tinyfish(url, need, state, dist)
-
-                response = temp.result["result"]
-                st.markdown(response)
-
+            response = temp.result["result"]
+            st.markdown(response)
+            
         except Exception as e:
             print(f"TinyFish error: {e}")
             st.error("Something did not work right")
