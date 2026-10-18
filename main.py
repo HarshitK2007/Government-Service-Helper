@@ -10,16 +10,16 @@ st.title("Government service helper")
 
 need = st.text_input(label = "Enter the service you need:")
 
+need = need.strip().lower()
+
 state = st.selectbox(label = "Select the state:", options = statedistDict.keys(), index = None)
+
+dist = None
 
 if state:
     dist = st.selectbox(label = f"Select district of {state}", options = statedistDict[state], index = None)
 
-need = need.strip().lower() 
-
-
-
-if state and dist:
+if need and state and dist:
 
     if st.button("Search"):
 
@@ -31,11 +31,12 @@ if state and dist:
                 if not(url):
                     url = uGO.find_website(need, state, dist)
                     if "https:" not in url:
-                        raise ValueError
+                        raise ValueError("No valid website URL was returned.")
                     uUM.save_url(need, state, dist, url)
 
             except Exception as e:
                 st.error(f"Error in finding the government website, {e}")
+                st.stop()
 
         try:
             if url:
@@ -46,7 +47,8 @@ if state and dist:
                 response = temp.result["result"]
                 st.markdown(response)
 
-        except:
-            st.error("Somthing did not work right")
+        except Exception as e:
+            print(f"TinyFish error: {e}")
+            st.error("Something did not work right")
 else:
     st.info("Enter a service and select a state and district.")
