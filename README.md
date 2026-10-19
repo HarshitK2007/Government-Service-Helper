@@ -16,7 +16,7 @@ Government services in India are spread across different central, state, and loc
 
 A person looking for a service may need to figure out:
 
-- Which website should they visit?
+- Which website should they be visiting?
 - Which department is responsible?
 - Who is eligible to apply?
 - Which documents are required?
