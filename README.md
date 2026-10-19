@@ -1,6 +1,6 @@
 # Government Service Helper 🇮🇳
 
-### Making government services easier to understand, one search at a time.
+### Making government services easier to understand, one search at a time.   
 
 Finding the right government website is only half the problem. Even after reaching the correct portal, people may struggle to understand eligibility rules, required documents, application steps, and which department handles their request.
 
