@@ -26,11 +26,12 @@ if need and state and dist:
         try:
             with st.spinner("Finding government website..."):
 
-                url = uUM.get_url(need, state, dist)
-
+                url = uUM.get_url(need, state.lower(), dist.lower())
+            
                 if not(url):
+
                     url = uGO.find_website(need, state, dist)
-                    
+
                     if "https:" not in url:
                         raise ValueError("No valid website URL was returned.")
                         
@@ -42,7 +43,8 @@ if need and state and dist:
 
         try:
             with st.spinner(f"TinyFish is reading {url}"):
-                    temp = uTF.ask_tinyfish(url, need, state, dist)
+                st.text(f"Scrapping... {url}")
+                temp = uTF.ask_tinyfish(url, need, state, dist)
 
             response = temp.result["result"]
             st.markdown(response)
