@@ -29,13 +29,20 @@ Rules:
 - Return direct link of the speicifc web where related need is mentioned.
 - link1 return in this format and only the link.
 - Return only one most legit link.
+- I have seen few wesbites for some documents are for whole india, 
+like i search for pan card state = ap, dist = chittoo, it returned nothing, 
+but the offical whole indian wesbite will work perfectly there, 
+so in such cases return whole websites that are for whole india
 """
 
-def find_website(service, state, dist=None):
+def find_website(service, state, dist):
 
     response = client.models.generate_content(
         model = "gemini-3.5-flash-lite",
-        contents = prompt + f"\nService: {service}, \nState: {state}, \nDistrict: {dist or 'Not specified'}",
+        contents = prompt + f"\nService: {service}, \nState: {state}, \nDistrict: {dist}",
     )
 
     return response.text
+
+
+print(find_website("Pan card","delhi","New delhi"))
