@@ -43,7 +43,6 @@ if need and state and dist:
 
         try:
             with st.spinner(f"TinyFish is reading {url}"):
-                st.text(f"Scrapping... {url}")
                 temp = uTF.ask_tinyfish(url, need, state, dist)
 
             response = temp.result["result"]
