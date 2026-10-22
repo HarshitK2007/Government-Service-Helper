@@ -3,11 +3,44 @@ from dotenv import load_dotenv
 from pathlib import Path
 import streamlit as st
 import os
+import re
+
+def ensure_hindi(text):
+    """Return text in Devanagari Hindi. Translates only if it isn't already Hindi."""
+    dev = len(re.findall(r"[\u0900-\u097F]", text))
+    latin = len(re.findall(r"[A-Za-z]", text))
+    if dev > latin:
+        return text   # already Hindi, no extra Gemini call
+
+    resp = client.models.generate_content(
+        model="gemini-2.5-flash",   # same model as in find_website
+        contents=(
+            "Translate this Markdown into simple Hindi written in Devanagari script only "
+            "(no Roman letters, no Hinglish). Keep the Markdown structure exactly the same. "
+            "Do NOT translate URLs, link targets, form numbers, or fee amounts. "
+            "Return only the translated Markdown.\n\n" + text
+        ),
+    )
+    return resp.text
+
+
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 load_dotenv(BASE_DIR / ".env")
 
-client = genai.Client(api_key = os.getenv("GOOGLE_GEMINI_API_KEY") or st.secrets.get("GOOGLE_GEMINI_API_KEY"))
+api_key = os.getenv("GOOGLE_GEMINI_API_KEY")
+
+if not api_key:
+    try:
+        api_key = st.secrets["GOOGLE_GEMINI_API_KEY"]
+    except Exception:
+        st.error(
+            "Gemini API key not found. "
+            "Check your .streamlit/secrets.toml file."
+        )
+        st.stop()
+
+client = genai.Client(api_key=api_key)
 
 prompt = f"""
 You are an assistant that helps Indian citizens find government services.
@@ -43,6 +76,14 @@ def find_website(service, state, dist):
     )
 
     return response.text
+    
+def chat_bot(response,query):
+    prompt = f"""based on the given reponse, you will have to answer query, you can also verify from internet
+    just make sure you dont give any invalid or wrong data, answer must be concise and simple in laguage
 
-
-print(find_website("Pan card","delhi","New delhi"))
+    answer = {query}
+    """
+    response = client.models.generate_content(
+        model = "gemini-3.5-flash-lite",
+        contents = prompt,)
+    return response.text
