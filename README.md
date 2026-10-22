@@ -4,9 +4,9 @@
 
 Finding the right government website is only half the problem. Even after reaching the correct portal, people may struggle to understand eligibility rules, required documents, application steps, and which department handles their request.
 
-**Government Service Helper** is a Streamlit-based project developed by our team to make this process simpler. Users enter the government service they need, select their state and district, and get a structured explanation of relevant service information from a government website.
+**Government Service Helper** is a Streamlit-based project developed by our team to make this process simpler. Users enter the government service they need, select their state and district, and get a structured explanation of relevant service information from a government website along with text-to-speech audio narration.
 
-Built for **AZINHACK '26**, this project combines Gemini-powered website discovery with TinyFish-powered web browsing and information extraction.
+This project combines Gemini-powered website discovery with TinyFish-powered web browsing and information extraction, along with Edge-TTS for audio narration and voice accessibility.
 
 ---
 
@@ -22,7 +22,7 @@ A person looking for a service may need to figure out:
 - Which documents are required?
 - What steps should they follow?
 
-Our team wanted to explore how AI and web automation could help bring these details together in one place.
+Our team wanted to explore how AI, web automation, and voice synthesis could help bring these details together in one place and make them accessible to everyone.
 
 ## 🚀 What the Project Does
 
@@ -33,25 +33,17 @@ The current application follows a simple workflow:
 3. **Find a relevant website:** The application checks its saved URL data first. If no match is found, it asks Gemini to identify a relevant government website.
 4. **Read the website with TinyFish:** TinyFish browses the selected page and attempts to extract information relevant to the requested service.
 5. **Display structured information:** The extracted information is presented in Markdown, covering the responsible department, eligibility, required documents, and application procedure where the source provides those details.
+6. **Voice Synthesis with Edge-TTS:** Generates spoken audio explanations using `edge-tts`, allowing users to listen to the extracted information for enhanced accessibility.
 
 The goal is to reduce the effort required to go from searching for a service to understanding where to start.
 
-## 🧠 How Gemini and TinyFish Work Together
-
-Both tools have different responsibilities in this project.
+## 🧠 Core Technologies & How They Work Together
 
 ### Gemini — Website Discovery
-
-The Google Gemini API helps identify a relevant website based on the requested service and the selected location.
-
-The prompt instructs Gemini to prefer official or officially authorized portals and return `NOT_FOUND` when a suitable website cannot be verified.
+The Google Gemini API helps identify a relevant official government website based on the requested service and the selected location. The prompt instructs Gemini to prefer official or officially authorized portals and return `NOT_FOUND` when a suitable website cannot be verified.
 
 ### TinyFish — Web Browsing and Extraction
-
-TinyFish is used to browse the selected website and extract useful information from its content.
-
-The extraction prompt requests a structured response containing:
-
+TinyFish is used to browse the selected website and extract useful information from its content. The extraction prompt requests a structured response containing:
 - Service name
 - Responsible department
 - Eligibility and criteria
@@ -59,9 +51,10 @@ The extraction prompt requests a structured response containing:
 - Application procedure
 - Relevant source links
 
-The prompt also instructs the agent not to invent requirements, deadlines, fees, documents, or URLs.
+### Edge-TTS — Text-to-Speech Accessibility
+Edge-TTS (`edge-tts`) provides high-quality text-to-speech capabilities, converting the extracted structured service guidance into audible speech. This improves accessibility for visually impaired users or those who prefer spoken directions.
 
-**Why use both?** Website discovery and information extraction are separate tasks. Gemini helps find a relevant starting point, while TinyFish handles the browsing and extraction step.
+**Why use this combination?** Website discovery, web extraction, and audio output are specialized tasks. Gemini finds a verified starting point, TinyFish automates reading and extracting content, and Edge-TTS converts that structured knowledge into accessible audio.
 
 ## 🛠️ Tech Stack
 
@@ -71,45 +64,15 @@ The prompt also instructs the agent not to invent requirements, deadlines, fees,
 | Streamlit | User interface |
 | Google Gemini API | Government website discovery |
 | TinyFish SDK | Website browsing and information extraction |
+| edge-tts | Text-to-speech audio narration |
 | JSON | State/district data and saved website mappings |
 | python-dotenv | Local environment-variable configuration |
-
-## 📁 Project Structure
-
-```text
-Government-Service-Helper/
-│
-├── main.py
-├── requirements.txt
-├── README.md
-│
-├── data/
-│   ├── StateAndDistrict.json
-│   └── government_urls.json
-│
-└── utils/
-    ├── __init__.py
-    ├── util_Google.py
-    ├── util_StateDist.py
-    ├── util_TinyFish.py
-    └── util_UrlManager.py
-```
-
-### What each file does
-
-- `main.py` — Runs the Streamlit interface and coordinates the search workflow.
-- `util_Google.py` — Uses Gemini to discover a relevant government website.
-- `util_TinyFish.py` — Sends the website and extraction instructions to TinyFish.
-- `util_StateDist.py` — Loads the state and district data.
-- `util_UrlManager.py` — Retrieves and saves website mappings in a local JSON file.
-- `StateAndDistrict.json` — Provides the location options shown in the interface.
-- `government_urls.json` — Stores previously saved website mappings to avoid repeating some discovery requests.
 
 ## 🔍 Example Use Case
 
 Imagine someone wants to learn about applying for a PAN card.
 
-They enter `PAN card`, select their state and district, and search. The application attempts to find a relevant website, uses TinyFish to read the selected page, and displays the available service information in a structured format.
+They enter `PAN card`, select their state and district, and search. The application attempts to find a relevant website, uses TinyFish to read the selected page, displays the available service information in a structured format, and offers an audio option powered by `edge-tts` to listen to the instructions.
 
 The same workflow can be tried with other services, provided a suitable website can be found and accessed.
 
@@ -121,6 +84,7 @@ This is a project in development, and our team sees several opportunities to imp
 
 - Better validation of government website URLs before using or saving them.
 - More reliable handling of unavailable websites and failed API requests.
+- Multi-language voice playback options using Edge-TTS support for regional Indian languages.
 - Clearer source attribution so users can easily verify extracted information.
 - Support for multiple relevant official sources when one page does not contain everything.
 - Improved handling of different spellings and names for the same service.
@@ -137,8 +101,6 @@ The application does not claim to submit applications or guarantee eligibility.
 
 ## 👥 About the Project
 
-Government Service Helper was developed by our team to explore how AI-powered website discovery and browser automation can make public-service information easier to navigate.
+Government Service Helper was developed by our team to explore how AI-powered website discovery, browser automation, and speech technology can make public-service information easier to navigate.
 
 Our focus is on a practical problem: helping people find relevant information without having to manually search through multiple pages first.
-
-**Built for AZINHACK '26 — Open Innovation**
