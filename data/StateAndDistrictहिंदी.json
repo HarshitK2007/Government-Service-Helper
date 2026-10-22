@@ -1,0 +1,3334 @@
+[
+    {
+        "code": "AN",
+        "name": "अंडमान और निकोबार द्वीप समूह",
+        "districts": [
+            {
+                "code": "NICOBAR",
+                "name": "निकोबार"
+            },
+            {
+                "code": "NORTH_AND_MIDDLE_ANDAMAN",
+                "name": "उत्तरी और मध्य अंडमान"
+            },
+            {
+                "code": "SOUTH_ANDAMAN",
+                "name": "दक्षिण अंडमान"
+            }
+        ]
+    },
+    {
+        "code": "AP",
+        "name": "आंध्र प्रदेश",
+        "districts": [
+            {
+                "code": "ANANTAPUR",
+                "name": "अनंतपुर"
+            },
+            {
+                "code": "CHITTOOR",
+                "name": "चितूर"
+            },
+            {
+                "code": "EAST_GODAVARI",
+                "name": "पूर्वी गोदावरी"
+            },
+            {
+                "code": "GUNTUR",
+                "name": "गुंटूर"
+            },
+            {
+                "code": "KADAPA",
+                "name": "कडपा"
+            },
+            {
+                "code": "KRISHNA",
+                "name": "कृष्णा"
+            },
+            {
+                "code": "KURNOOL",
+                "name": "कुरनूल"
+            },
+            {
+                "code": "NELLORE",
+                "name": "नेल्लोर"
+            },
+            {
+                "code": "PRAKASAM",
+                "name": "प्रकाशम"
+            },
+            {
+                "code": "SRIKAKULAM",
+                "name": "श्रीकाकुलम"
+            },
+            {
+                "code": "VISAKHAPATNAM",
+                "name": "विशाखापत्तनम"
+            },
+            {
+                "code": "VIZIANAGARAM",
+                "name": "विजयनगरम"
+            },
+            {
+                "code": "WEST_GODAVARI",
+                "name": "पश्चिमी गोदावरी"
+            },
+            {
+                "code": "ANNAMAYYA",
+                "name": "अन्नमय्या"
+            },
+            {
+                "code": "BAPATLA",
+                "name": "बापटला"
+            },
+            {
+                "code": "ELURU",
+                "name": "एलुरु"
+            },
+            {
+                "code": "KAKINADA",
+                "name": "काकीनाडा"
+            },
+            {
+                "code": "KONASEEMA",
+                "name": "कोनासीमा"
+            },
+            {
+                "code": "NANDYAL",
+                "name": "नंदयालय"
+            },
+            {
+                "code": "NTR",
+                "name": "एनटीआर"
+            },
+            {
+                "code": "PALNADU",
+                "name": "पलनाडु"
+            },
+            {
+                "code": "PARVATHIPURAM_MANYAM",
+                "name": "पार्वतीपुरम मन्याम्"
+            },
+            {
+                "code": "SRI_SATHYA_SAI",
+                "name": "श्री सत्य साई"
+            },
+            {
+                "code": "TIRUPATI",
+                "name": "तिरुपति"
+            }
+        ]
+    },
+    {
+        "code": "AR",
+        "name": "अरुणाचल प्रदेश",
+        "districts": [
+            {
+                "code": "ANJAW",
+                "name": "अंजॉ"
+            },
+            {
+                "code": "CHANGLANG",
+                "name": "चांगलांग"
+            },
+            {
+                "code": "DIBANG_VALLEY",
+                "name": "दिबांग घाटी"
+            },
+            {
+                "code": "EAST_KAMENG",
+                "name": "पूर्वी कामेंग"
+            },
+            {
+                "code": "EAST_SIANG",
+                "name": "पूर्वी सियांग"
+            },
+            {
+                "code": "KAMLE",
+                "name": "कमले"
+            },
+            {
+                "code": "KRA_DAADI",
+                "name": "क्रा दाادي"
+            },
+            {
+                "code": "KURUNG_KUMEY",
+                "name": "कुरूंग कुमेय"
+            },
+            {
+                "code": "LEPA_RADA",
+                "name": "लेपा राडा"
+            },
+            {
+                "code": "LOHIT",
+                "name": "लोहित"
+            },
+            {
+                "code": "LONGDING",
+                "name": "लोंगडिंग"
+            },
+            {
+                "code": "LOWER_DIBANG_VALLEY",
+                "name": "निचली दिबांग घाटी"
+            },
+            {
+                "code": "LOWER_SIANG",
+                "name": "निचला सियांग"
+            },
+            {
+                "code": "LOWER_SUBANSIRI",
+                "name": "निचला सुबनसिरी"
+            },
+            {
+                "code": "NAMSAI",
+                "name": "नामसाई"
+            },
+            {
+                "code": "PAKKE_KESSANG",
+                "name": "पक्के केस्संग"
+            },
+            {
+                "code": "PAPUM_PARE",
+                "name": "पापम पारे"
+            },
+            {
+                "code": "SHI_YOMI",
+                "name": "शी योमी"
+            },
+            {
+                "code": "SIANG",
+                "name": "सियांग"
+            },
+            {
+                "code": "TAWANG",
+                "name": "तवांग"
+            },
+            {
+                "code": "TIRAP",
+                "name": "तिरप"
+            },
+            {
+                "code": "UPPER_SIANG",
+                "name": "ऊपरी सियांग"
+            },
+            {
+                "code": "UPPER_SUBANSIRI",
+                "name": "ऊपरी सुबनसिरी"
+            },
+            {
+                "code": "WEST_KAMENG",
+                "name": "पश्चिमी कामेंग"
+            },
+            {
+                "code": "WEST_SIANG",
+                "name": "पश्चिमी सियांग"
+            },
+            {
+                "code": "ITANAGAR_CAPITAL_COMPLEX",
+                "name": "ईटानगर राजधानी परिसर"
+            }
+        ]
+    },
+    {
+        "code": "AS",
+        "name": "असम",
+        "districts": [
+            {
+                "code": "BAKSA",
+                "name": "बाक्सा"
+            },
+            {
+                "code": "BARPETA",
+                "name": "बारपेटा"
+            },
+            {
+                "code": "BISWANATH",
+                "name": "विश्वनाथ"
+            },
+            {
+                "code": "BONGAIGAON",
+                "name": "बोंगाईगांव"
+            },
+            {
+                "code": "CACHAR",
+                "name": "कachar (कछार)"
+            },
+            {
+                "code": "CHARAIDEO",
+                "name": "चराईदेव"
+            },
+            {
+                "code": "CHIRANG",
+                "name": "चिराग"
+            },
+            {
+                "code": "DARRANG",
+                "name": "दरांग"
+            },
+            {
+                "code": "DHEMAJI",
+                "name": "धेमाजी"
+            },
+            {
+                "code": "DHUBRI",
+                "name": "धुबरी"
+            },
+            {
+                "code": "DIBRUGARH",
+                "name": "डिब्रूगढ़"
+            },
+            {
+                "code": "DIMA_HASAO",
+                "name": "दीमा हसाओ"
+            },
+            {
+                "code": "GOALPARA",
+                "name": "गोवालपाड़ा"
+            },
+            {
+                "code": "GOLAGHAT",
+                "name": "गोलाघाट"
+            },
+            {
+                "code": "HAILAKANDI",
+                "name": "हैलाकांडी"
+            },
+            {
+                "code": "HOJAI",
+                "name": "होजाई"
+            },
+            {
+                "code": "JORHAT",
+                "name": "जोरहाट"
+            },
+            {
+                "code": "KAMRUP",
+                "name": "कामरूप"
+            },
+            {
+                "code": "KAMRUP_METROPOLITAN",
+                "name": "कामरूप महानगर"
+            },
+            {
+                "code": "KARBI_ANGLONG",
+                "name": "कार्बी आंगलोंग"
+            },
+            {
+                "code": "KARIMGANJ",
+                "name": "करीमगंज"
+            },
+            {
+                "code": "KOKRAJHAR",
+                "name": "कोकराझार"
+            },
+            {
+                "code": "LAKHIMPUR",
+                "name": "लखीमपुर"
+            },
+            {
+                "code": "MAJULI",
+                "name": "माजुली"
+            },
+            {
+                "code": "MORIGAON",
+                "name": "मोरीगांव"
+            },
+            {
+                "code": "NAGAON",
+                "name": "नागांव"
+            },
+            {
+                "code": "NALBARI",
+                "name": "नलबाड़ी"
+            },
+            {
+                "code": "SIVASAGAR",
+                "name": "शिवसागर"
+            },
+            {
+                "code": "SONITPUR",
+                "name": "सोितपुर"
+            },
+            {
+                "code": "SOUTH_SALMARA_MANKACHAR",
+                "name": "दक्षिण सलमार-मानकचर"
+            },
+            {
+                "code": "TINSUKIA",
+                "name": "तिनसुकिया"
+            },
+            {
+                "code": "UDALGURI",
+                "name": "उदलगुरी"
+            },
+            {
+                "code": "WEST_KARBI_ANGLONG",
+                "name": "पश्चिमी कार्बी आंगलोंग"
+            },
+            {
+                "code": "BAJALI",
+                "name": "बाजाली"
+            },
+            {
+                "code": "TAMULPUR",
+                "name": "तमुल्पुर"
+            }
+        ]
+    },
+    {
+        "code": "BR",
+        "name": "बिहार",
+        "districts": [
+            {
+                "code": "ARARIA",
+                "name": "अररिया"
+            },
+            {
+                "code": "ARWAL",
+                "name": "अरवल"
+            },
+            {
+                "code": "AURANGABAD",
+                "name": "औरंगाबाद"
+            },
+            {
+                "code": "BANKA",
+                "name": "बांका"
+            },
+            {
+                "code": "BEGUSARAI",
+                "name": "बेगूसराय"
+            },
+            {
+                "code": "BHAGALPUR",
+                "name": "भागलपुर"
+            },
+            {
+                "code": "BHOJPUR",
+                "name": "भोजपुर"
+            },
+            {
+                "code": "BUXAR",
+                "name": "बक्सर"
+            },
+            {
+                "code": "DARBHANGA",
+                "name": "दरभंगा"
+            },
+            {
+                "code": "EAST_CHAMPARAN",
+                "name": "पूर्वी चंपारण"
+            },
+            {
+                "code": "GAYA",
+                "name": "गया"
+            },
+            {
+                "code": "GOPALGANJ",
+                "name": "गोपालगंज"
+            },
+            {
+                "code": "JAMUI",
+                "name": "जमुई"
+            },
+            {
+                "code": "JEHANABAD",
+                "name": "जहानाबाद"
+            },
+            {
+                "code": "KAIMUR",
+                "name": "कैमूर"
+            },
+            {
+                "code": "KATIHAR",
+                "name": "कटिहार"
+            },
+            {
+                "code": "KHAGARIA",
+                "name": "खगड़िया"
+            },
+            {
+                "code": "KISHANGANJ",
+                "name": "किशनगंज"
+            },
+            {
+                "code": "LAKHISARAI",
+                "name": "लखीसराय"
+            },
+            {
+                "code": "MADHEPURA",
+                "name": "मधेपुरा"
+            },
+            {
+                "code": "MADHUBANI",
+                "name": "मधुबनी"
+            },
+            {
+                "code": "MUNGER",
+                "name": "मुंगेर"
+            },
+            {
+                "code": "MUZAFFARPUR",
+                "name": "मुजफ्फरपुर"
+            },
+            {
+                "code": "NALANDA",
+                "name": "नालंदा"
+            },
+            {
+                "code": "NAWADA",
+                "name": "नवादा"
+            },
+            {
+                "code": "PATNA",
+                "name": "पटना"
+            },
+            {
+                "code": "PURNIA",
+                "name": "पूर्णिया"
+            },
+            {
+                "code": "ROHTAS",
+                "name": "रोहतास"
+            },
+            {
+                "code": "SAHARSA",
+                "name": "सहरसा"
+            },
+            {
+                "code": "SAMASTIPUR",
+                "name": "समस्तीपुर"
+            },
+            {
+                "code": "SARAN",
+                "name": "सारण"
+            },
+            {
+                "code": "SHEIKHPURA",
+                "name": "शेखपुरा"
+            },
+            {
+                "code": "SHEOHAR",
+                "name": "शिवहर"
+            },
+            {
+                "code": "SITAMARHI",
+                "name": "सीतामढ़ी"
+            },
+            {
+                "code": "SIWAN",
+                "name": "सीवान"
+            },
+            {
+                "code": "SUPAUL",
+                "name": "सुपौल"
+            },
+            {
+                "code": "VAISHALI",
+                "name": "वैशाली"
+            },
+            {
+                "code": "WEST_CHAMPARAN",
+                "name": "पश्चिमी चंपारण"
+            }
+        ]
+    },
+    {
+        "code": "CH",
+        "name": "चंडीगढ़",
+        "districts": [
+            {
+                "code": "CHANDIGARH",
+                "name": "चंडीगढ़"
+            }
+        ]
+    },
+    {
+        "code": "CT",
+        "name": "छत्तीसगढ़",
+        "districts": [
+            {
+                "code": "BALOD",
+                "name": "बालोद"
+            },
+            {
+                "code": "BALODA_BAZAR",
+                "name": "बलौदा बाजार"
+            },
+            {
+                "code": "BALRAMPUR",
+                "name": "बलरामपुर"
+            },
+            {
+                "code": "BASTAR",
+                "name": "बस्तर"
+            },
+            {
+                "code": "BEMETARA",
+                "name": "बेमेतरा"
+            },
+            {
+                "code": "BIJAPUR",
+                "name": "बीजापुर"
+            },
+            {
+                "code": "BILASPUR",
+                "name": "बिलासपुर"
+            },
+            {
+                "code": "DANTEWADA",
+                "name": "दंतेवाड़ा"
+            },
+            {
+                "code": "DHAMTARI",
+                "name": "धमतरी"
+            },
+            {
+                "code": "DURG",
+                "name": "दुर्ग"
+            },
+            {
+                "code": "GARIABAND",
+                "name": "गरियाबंद"
+            },
+            {
+                "code": "GAURELA_PENDRA_MARWAHI",
+                "name": "गौरेला-पेंड्रा-मरवाही"
+            },
+            {
+                "code": "JANJGIR_CHAMPA",
+                "name": "जांजगीर-चंपा"
+            },
+            {
+                "code": "JASHPUR",
+                "name": "जशपुर"
+            },
+            {
+                "code": "KABIRDHAM",
+                "name": "कबीरधाम"
+            },
+            {
+                "code": "KANKER",
+                "name": "कांकेर"
+            },
+            {
+                "code": "KONDAGAON",
+                "name": "कोंडागांव"
+            },
+            {
+                "code": "KORBA",
+                "name": "कोरबा"
+            },
+            {
+                "code": "KORIYA",
+                "name": "कोरिया"
+            },
+            {
+                "code": "MAHASAMUND",
+                "name": "महासमुंद"
+            },
+            {
+                "code": "MUNGELI",
+                "name": "मुंगेली"
+            },
+            {
+                "code": "NARAYANPUR",
+                "name": "नारायणपुर"
+            },
+            {
+                "code": "RAIGARH",
+                "name": "रायगढ़"
+            },
+            {
+                "code": "RAIPUR",
+                "name": "रायपुर"
+            },
+            {
+                "code": "RAJNANDGAON",
+                "name": "राजनांदगांव"
+            },
+            {
+                "code": "SUKMA",
+                "name": "सुकमा"
+            },
+            {
+                "code": "SURAJPUR",
+                "name": "सूरजपुर"
+            },
+            {
+                "code": "SURGUJA",
+                "name": "सरगुजा"
+            },
+            {
+                "code": "MANENDRAGARH_CHIRMIRI_BH",
+                "name": "मनेंद्रगढ़-चिरमिरी-भरतपुर"
+            },
+            {
+                "code": "MOHLA_MANPUR_AMBAGARH_CH",
+                "name": "मोहला-मानपुर-अंबागढ़ चौकी"
+            },
+            {
+                "code": "SARANGARH_BILAIGARH",
+                "name": "सारंगढ़-बिलाईगढ़"
+            },
+            {
+                "code": "SAKTI",
+                "name": "सक्ति"
+            }
+        ]
+    },
+    {
+        "code": "DH",
+        "name": "दादरा और नगर हवेली और दमन और दीव",
+        "districts": [
+            {
+                "code": "DADRA_AND_NAGAR_HAVELI",
+                "name": "दादरा और नगर हवेली"
+            },
+            {
+                "code": "DAMAN",
+                "name": "दमन"
+            },
+            {
+                "code": "DIU",
+                "name": "दीव"
+            }
+        ]
+    },
+    {
+        "code": "DL",
+        "name": "दिल्ली",
+        "districts": [
+            {
+                "code": "CENTRAL_DELHI",
+                "name": "मध्य दिल्ली"
+            },
+            {
+                "code": "EAST_DELHI",
+                "name": "पूर्वी दिल्ली"
+            },
+            {
+                "code": "NEW_DELHI",
+                "name": "नई दिल्ली"
+            },
+            {
+                "code": "NORTH_DELHI",
+                "name": "उत्तरी दिल्ली"
+            },
+            {
+                "code": "NORTH_EAST_DELHI",
+                "name": "उत्तर पूर्व दिल्ली"
+            },
+            {
+                "code": "NORTH_WEST_DELHI",
+                "name": "उत्तर पश्चिम दिल्ली"
+            },
+            {
+                "code": "SHAHDARA",
+                "name": "शाहदरा"
+            },
+            {
+                "code": "SOUTH_DELHI",
+                "name": "दक्षिण दिल्ली"
+            },
+            {
+                "code": "SOUTH_EAST_DELHI",
+                "name": "दक्षिण पूर्व दिल्ली"
+            },
+            {
+                "code": "SOUTH_WEST_DELHI",
+                "name": "दक्षिण पश्चिम दिल्ली"
+            },
+            {
+                "code": "WEST_DELHI",
+                "name": "पश्चिमी दिल्ली"
+            }
+        ]
+    },
+    {
+        "code": "GA",
+        "name": "गोवा",
+        "districts": [
+            {
+                "code": "NORTH_GOA",
+                "name": "उत्तरी गोवा"
+            },
+            {
+                "code": "SOUTH_GOA",
+                "name": "दक्षिण गोवा"
+            }
+        ]
+    },
+    {
+        "code": "GJ",
+        "name": "गुजरात",
+        "districts": [
+            {
+                "code": "AHMEDABAD",
+                "name": "अहमदाबाद"
+            },
+            {
+                "code": "AMRELI",
+                "name": "अमरेली"
+            },
+            {
+                "code": "ANAND",
+                "name": "आणंद"
+            },
+            {
+                "code": "ARAVALLI",
+                "name": "अरावली"
+            },
+            {
+                "code": "BANASKANTHA",
+                "name": "बनासकांठा"
+            },
+            {
+                "code": "BHARUCH",
+                "name": "भरूच"
+            },
+            {
+                "code": "BHAVNAGAR",
+                "name": "भावनगर"
+            },
+            {
+                "code": "BOTAD",
+                "name": "बोटड"
+            },
+            {
+                "code": "CHHOTA_UDAIPUR",
+                "name": "छोटा उदयपुर"
+            },
+            {
+                "code": "DAHOD",
+                "name": "दाहोद"
+            },
+            {
+                "code": "DANG",
+                "name": "डांग"
+            },
+            {
+                "code": "DEVBHOOMI_DWARKA",
+                "name": "देवभूमि द्वारका"
+            },
+            {
+                "code": "GANDHINAGAR",
+                "name": "गांधीनगर"
+            },
+            {
+                "code": "GIR_SOMNATH",
+                "name": "गीर सोमनाथ"
+            },
+            {
+                "code": "JAMNAGAR",
+                "name": "जामनगर"
+            },
+            {
+                "code": "JUNAGADH",
+                "name": "जूनागढ़"
+            },
+            {
+                "code": "KHEDA",
+                "name": "खेड़ा"
+            },
+            {
+                "code": "KUTCH",
+                "name": "कच्छ"
+            },
+            {
+                "code": "MAHISAGAR",
+                "name": "महिसागर"
+            },
+            {
+                "code": "MEHSANA",
+                "name": "मेहसाणा"
+            },
+            {
+                "code": "MORBI",
+                "name": "मोरबी"
+            },
+            {
+                "code": "NARMADA",
+                "name": "नर्मदा"
+            },
+            {
+                "code": "NAVSARI",
+                "name": "नवसारी"
+            },
+            {
+                "code": "PANCHMAHAL",
+                "name": "पंचमहाल"
+            },
+            {
+                "code": "PATAN",
+                "name": "पाटन"
+            },
+            {
+                "code": "PORBANDAR",
+                "name": "पोरबंदर"
+            },
+            {
+                "code": "RAJKOT",
+                "name": "राजकोट"
+            },
+            {
+                "code": "SABARKANTHA",
+                "name": "साबरकांठा"
+            },
+            {
+                "code": "SURAT",
+                "name": "सूरत"
+            },
+            {
+                "code": "SURENDRANAGAR",
+                "name": "सुरेंद्रनगर"
+            },
+            {
+                "code": "TAPI",
+                "name": "तापी"
+            },
+            {
+                "code": "VADODARA",
+                "name": "वड़ोदरा"
+            },
+            {
+                "code": "VALSAD",
+                "name": "वलसाड"
+            }
+        ]
+    },
+    {
+        "code": "HR",
+        "name": "हरियाणा",
+        "districts": [
+            {
+                "code": "AMBALA",
+                "name": "अंबाला"
+            },
+            {
+                "code": "BHIWANI",
+                "name": "भिवानी"
+            },
+            {
+                "code": "CHARKHI_DADRI",
+                "name": "चरखी दादरी"
+            },
+            {
+                "code": "FARIDABAD",
+                "name": "फरिदाबाद"
+            },
+            {
+                "code": "FATEHABAD",
+                "name": "फतेहाबाद"
+            },
+            {
+                "code": "GURUGRAM",
+                "name": "गुरुग्राम"
+            },
+            {
+                "code": "HISAR",
+                "name": "हिसार"
+            },
+            {
+                "code": "JHAJJAR",
+                "name": "झज्जर"
+            },
+            {
+                "code": "JIND",
+                "name": "जींद"
+            },
+            {
+                "code": "KAITHAL",
+                "name": "कैथल"
+            },
+            {
+                "code": "KARNAL",
+                "name": "करनाल"
+            },
+            {
+                "code": "KURUKSHETRA",
+                "name": "कुरुक्षेत्र"
+            },
+            {
+                "code": "MAHENDRAGARH",
+                "name": "महेंद्रगढ़"
+            },
+            {
+                "code": "NUH",
+                "name": "नूंह"
+            },
+            {
+                "code": "PALWAL",
+                "name": "पलवल"
+            },
+            {
+                "code": "PANCHKULA",
+                "name": "पंचकूला"
+            },
+            {
+                "code": "PANIPAT",
+                "name": "पानीपत"
+            },
+            {
+                "code": "REWARI",
+                "name": "रेवाड़ी"
+            },
+            {
+                "code": "ROHTAK",
+                "name": "रोहतक"
+            },
+            {
+                "code": "SIRSA",
+                "name": "सिरसा"
+            },
+            {
+                "code": "SONIPAT",
+                "name": "सोनीपत"
+            },
+            {
+                "code": "YAMUNANAGAR",
+                "name": "यमुनानगर"
+            }
+        ]
+    },
+    {
+        "code": "HP",
+        "name": "हिमाचल प्रदेश",
+        "districts": [
+            {
+                "code": "BILASPUR",
+                "name": "बिलासपुर"
+            },
+            {
+                "code": "CHAMBA",
+                "name": "चंबा"
+            },
+            {
+                "code": "HAMIRPUR",
+                "name": "हमीरपुर"
+            },
+            {
+                "code": "KANGRA",
+                "name": "कांगड़ा"
+            },
+            {
+                "code": "KINNAUR",
+                "name": "किन्नौर"
+            },
+            {
+                "code": "KULLU",
+                "name": "कुल्लू"
+            },
+            {
+                "code": "LAHAUL_AND_SPITI",
+                "name": "लाहौल और स्पीति"
+            },
+            {
+                "code": "MANDI",
+                "name": "मंडी"
+            },
+            {
+                "code": "SHIMLA",
+                "name": "शिमला"
+            },
+            {
+                "code": "SIRMAUR",
+                "name": "सिरमौर"
+            },
+            {
+                "code": "SOLAN",
+                "name": "सोलन"
+            },
+            {
+                "code": "UNA",
+                "name": "ऊना"
+            }
+        ]
+    },
+    {
+        "code": "JK",
+        "name": "जम्मू और कश्मीर",
+        "districts": [
+            {
+                "code": "ANANTNAG",
+                "name": "अनंतनाग"
+            },
+            {
+                "code": "BANDIPORA",
+                "name": "बांदीपोरा"
+            },
+            {
+                "code": "BARAMULLA",
+                "name": "बारामूला"
+            },
+            {
+                "code": "BUDGAM",
+                "name": "बडगाम"
+            },
+            {
+                "code": "DODA",
+                "name": "डोडा"
+            },
+            {
+                "code": "GANDERBAL",
+                "name": "गांदरबल"
+            },
+            {
+                "code": "JAMMU",
+                "name": "जम्मू"
+            },
+            {
+                "code": "KATHUA",
+                "name": "कठुआ"
+            },
+            {
+                "code": "KISHTWAR",
+                "name": "किश्तवाड़"
+            },
+            {
+                "code": "KULGAM",
+                "name": "कुलगाम"
+            },
+            {
+                "code": "KUPWARA",
+                "name": "कुपवाड़ा"
+            },
+            {
+                "code": "POONCH",
+                "name": "पुंछ"
+            },
+            {
+                "code": "PULWAMA",
+                "name": "पुलवामा"
+            },
+            {
+                "code": "RAJOURI",
+                "name": "राजौरी"
+            },
+            {
+                "code": "RAMBAN",
+                "name": "रामबन"
+            },
+            {
+                "code": "REASI",
+                "name": "रियासी"
+            },
+            {
+                "code": "SAMBA",
+                "name": "सांबा"
+            },
+            {
+                "code": "SHOPIAN",
+                "name": "शोपियां"
+            },
+            {
+                "code": "SRINAGAR",
+                "name": "श्रीनगर"
+            },
+            {
+                "code": "UDHAMPUR",
+                "name": "उधमपुर"
+            }
+        ]
+    },
+    {
+        "code": "JH",
+        "name": "झारखंड",
+        "districts": [
+            {
+                "code": "BOKARO",
+                "name": "बोकारो"
+            },
+            {
+                "code": "CHATRA",
+                "name": "चतरा"
+            },
+            {
+                "code": "DEOGHAR",
+                "name": "देवघर"
+            },
+            {
+                "code": "DHANBAD",
+                "name": "धनबाद"
+            },
+            {
+                "code": "DUMKA",
+                "name": "दुमका"
+            },
+            {
+                "code": "EAST_SINGHBHUM",
+                "name": "पूर्वी सिंहभूम"
+            },
+            {
+                "code": "GARHWA",
+                "name": "गढ़वा"
+            },
+            {
+                "code": "GIRIDIH",
+                "name": "गिरिडीह"
+            },
+            {
+                "code": "GODDA",
+                "name": "गोड्डा"
+            },
+            {
+                "code": "GUMLA",
+                "name": "गुमला"
+            },
+            {
+                "code": "HAZARIBAGH",
+                "name": "हजारीबाग"
+            },
+            {
+                "code": "JAMTARA",
+                "name": "जामताड़ा"
+            },
+            {
+                "code": "KHUNTI",
+                "name": "खूंटी"
+            },
+            {
+                "code": "KODERMA",
+                "name": "कोडरमा"
+            },
+            {
+                "code": "LATEHAR",
+                "name": "लातेहार"
+            },
+            {
+                "code": "LOHARDAGA",
+                "name": "लोहरदगा"
+            },
+            {
+                "code": "PAKUR",
+                "name": "पाकुड़"
+            },
+            {
+                "code": "PALAMU",
+                "name": "पलामू"
+            },
+            {
+                "code": "RAMGARH",
+                "name": "रामगढ़"
+            },
+            {
+                "code": "RANCHI",
+                "name": "रांची"
+            },
+            {
+                "code": "SAHIBGANJ",
+                "name": "साहिबगंज"
+            },
+            {
+                "code": "SERAIKELA_KHARSAWAN",
+                "name": "सरायकेला खरसावां"
+            },
+            {
+                "code": "SIMDEGA",
+                "name": "सिमडेगा"
+            },
+            {
+                "code": "WEST_SINGHBHUM",
+                "name": "पश्चिमी सिंहभूम"
+            }
+        ]
+    },
+    {
+        "code": "KA",
+        "name": "कर्नाटक",
+        "districts": [
+            {
+                "code": "BAGALKOT",
+                "name": "बागलकोट"
+            },
+            {
+                "code": "BALLARI",
+                "name": "बल्लारी"
+            },
+            {
+                "code": "BELAGAVI",
+                "name": "बेलगावी"
+            },
+            {
+                "code": "BENGALURU_RURAL",
+                "name": "बेंगलुरु ग्रामीण"
+            },
+            {
+                "code": "BENGALURU_URBAN",
+                "name": "बेंगलुरु शहरी"
+            },
+            {
+                "code": "BIDAR",
+                "name": "बीदर"
+            },
+            {
+                "code": "CHAMARAJANAGAR",
+                "name": "चामराजनगर"
+            },
+            {
+                "code": "CHIKKABALLAPUR",
+                "name": "चिक्काबल्लापुर"
+            },
+            {
+                "code": "CHIKKAMAGALURU",
+                "name": "चिक्कमगलुरु"
+            },
+            {
+                "code": "CHITRADURGA",
+                "name": "चित्रदुर्ग"
+            },
+            {
+                "code": "DAKSHINA_KANNADA",
+                "name": "दक्षिण कन्नड़"
+            },
+            {
+                "code": "DAVANAGERE",
+                "name": "दावणगेरे"
+            },
+            {
+                "code": "DHARWAD",
+                "name": "धारवाड़"
+            },
+            {
+                "code": "GADAG",
+                "name": "गदग"
+            },
+            {
+                "code": "HASSAN",
+                "name": "हासन"
+            },
+            {
+                "code": "HAVERI",
+                "name": "हावेरी"
+            },
+            {
+                "code": "KALABURAGI",
+                "name": "कलाबुर्गी"
+            },
+            {
+                "code": "KODAGU",
+                "name": "कोडागु"
+            },
+            {
+                "code": "KOLAR",
+                "name": "कोलार"
+            },
+            {
+                "code": "KOPPAL",
+                "name": "कोप्पला"
+            },
+            {
+                "code": "MANDYA",
+                "name": "मांड्या"
+            },
+            {
+                "code": "MYSURU",
+                "name": "मैसूरु"
+            },
+            {
+                "code": "RAICHUR",
+                "name": "रायचुर"
+            },
+            {
+                "code": "RAMANAGARA",
+                "name": "्रामनगर"
+            },
+            {
+                "code": "SHIVAMOGGA",
+                "name": "शिवमोगा"
+            },
+            {
+                "code": "TUMAKURU",
+                "name": "तुमकुरु"
+            },
+            {
+                "code": "UDUPI",
+                "name": "उडुपी"
+            },
+            {
+                "code": "UTTARA_KANNADA",
+                "name": "उत्तर कन्नड़"
+            },
+            {
+                "code": "VIJAYAPURA",
+                "name": "विजयपुरा"
+            },
+            {
+                "code": "YADGIR",
+                "name": "यादगीर"
+            },
+            {
+                "code": "VIJAYANAGARA",
+                "name": "विजयनगर"
+            }
+        ]
+    },
+    {
+        "code": "KL",
+        "name": "केरल",
+        "districts": [
+            {
+                "code": "ALAPPUZHA",
+                "name": "अलप्पुषा"
+            },
+            {
+                "code": "ERNAKULAM",
+                "name": "एर्नाकुलम"
+            },
+            {
+                "code": "IDUKKI",
+                "name": "इडुक्की"
+            },
+            {
+                "code": "KANNUR",
+                "name": "कन्नूर"
+            },
+            {
+                "code": "KASARAGOD",
+                "name": "कासरगोड"
+            },
+            {
+                "code": "KOLLAM",
+                "name": "कोल्लम"
+            },
+            {
+                "code": "KOTTAYAM",
+                "name": "कोट्टायम"
+            },
+            {
+                "code": "KOZHIKODE",
+                "name": "कोझिकोड"
+            },
+            {
+                "code": "MALAPPURAM",
+                "name": "मलप्पुरम"
+            },
+            {
+                "code": "PALAKKAD",
+                "name": "पलक्कड़"
+            },
+            {
+                "code": "PATHANAMTHITTA",
+                "name": "पथानामथिट्टा"
+            },
+            {
+                "code": "THIRUVANANTHAPURAM",
+                "name": "तिरुवनंतपुरम"
+            },
+            {
+                "code": "THRISSUR",
+                "name": "त्रिशूर"
+            },
+            {
+                "code": "WAYANAD",
+                "name": "वायनाड"
+            }
+        ]
+    },
+    {
+        "code": "LA",
+        "name": "लद्दाख",
+        "districts": [
+            {
+                "code": "KARGIL",
+                "name": "कारगिल"
+            },
+            {
+                "code": "LEH",
+                "name": "लेह"
+            }
+        ]
+    },
+    {
+        "code": "LD",
+        "name": "लक्षद्वीप",
+        "districts": [
+            {
+                "code": "LAKSHADWEEP",
+                "name": "लक्षद्वीप"
+            }
+        ]
+    },
+    {
+        "code": "MP",
+        "name": "मध्य प्रदेश",
+        "districts": [
+            {
+                "code": "AGAR_MALWA",
+                "name": "आगर मालवा"
+            },
+            {
+                "code": "ALIRAJPUR",
+                "name": "अलीराजपुर"
+            },
+            {
+                "code": "ANUPPUR",
+                "name": "अनूपपुर"
+            },
+            {
+                "code": "ASHOKNAGAR",
+                "name": "अशोकनगर"
+            },
+            {
+                "code": "BALAGHAT",
+                "name": "बालाघाट"
+            },
+            {
+                "code": "BARWANI",
+                "name": "बड़वानी"
+            },
+            {
+                "code": "BETUL",
+                "name": "बैतूल"
+            },
+            {
+                "code": "BHIND",
+                "name": "भिंड"
+            },
+            {
+                "code": "BHOPAL",
+                "name": "भोपाल"
+            },
+            {
+                "code": "BURHANPUR",
+                "name": "बुरहानपुर"
+            },
+            {
+                "code": "CHHATARPUR",
+                "name": "छतरपुर"
+            },
+            {
+                "code": "CHHINDWARA",
+                "name": "छिंदवाड़ा"
+            },
+            {
+                "code": "DAMOH",
+                "name": "दमोह"
+            },
+            {
+                "code": "DATIA",
+                "name": "दतिया"
+            },
+            {
+                "code": "DEWAS",
+                "name": "देवास"
+            },
+            {
+                "code": "DHAR",
+                "name": "धार"
+            },
+            {
+                "code": "DINDORI",
+                "name": "डिंडोरी"
+            },
+            {
+                "code": "GUNA",
+                "name": "गुना"
+            },
+            {
+                "code": "GWALIOR",
+                "name": "ग्वालियर"
+            },
+            {
+                "code": "HARDA",
+                "name": "हरदा"
+            },
+            {
+                "code": "HOSHANGABAD",
+                "name": "होशंगाबाद"
+            },
+            {
+                "code": "INDORE",
+                "name": "इंदौर"
+            },
+            {
+                "code": "JABALPUR",
+                "name": "जबलपुर"
+            },
+            {
+                "code": "JHABUA",
+                "name": "झाबुआ"
+            },
+            {
+                "code": "KATNI",
+                "name": "कटनी"
+            },
+            {
+                "code": "KHANDWA",
+                "name": "खंडवा"
+            },
+            {
+                "code": "KHARGONE",
+                "name": "खरगोन"
+            },
+            {
+                "code": "MANDLA",
+                "name": "मंडला"
+            },
+            {
+                "code": "MANDSAUR",
+                "name": "मंदसौर"
+            },
+            {
+                "code": "MORENA",
+                "name": "मुरैना"
+            },
+            {
+                "code": "NARSINGHPUR",
+                "name": "नरसिंहपुर"
+            },
+            {
+                "code": "NEEMUCH",
+                "name": "नीमच"
+            },
+            {
+                "code": "NIWARI",
+                "name": "निवाड़ी"
+            },
+            {
+                "code": "PANNA",
+                "name": "पन्ना"
+            },
+            {
+                "code": "RAISEN",
+                "name": "रायसेन"
+            },
+            {
+                "code": "RAJGARH",
+                "name": "राजगढ़"
+            },
+            {
+                "code": "RATLAM",
+                "name": "रतलाम"
+            },
+            {
+                "code": "REWA",
+                "name": "रीवा"
+            },
+            {
+                "code": "SAGAR",
+                "name": "सागर"
+            },
+            {
+                "code": "SATNA",
+                "name": "सतना"
+            },
+            {
+                "code": "SEHORE",
+                "name": "सीहोर"
+            },
+            {
+                "code": "SEONI",
+                "name": "सिवनी"
+            },
+            {
+                "code": "SHAHDOL",
+                "name": "शहडोल"
+            },
+            {
+                "code": "SHAJAPUR",
+                "name": "शाजापुर"
+            },
+            {
+                "code": "SHEOPUR",
+                "name": "श्योपुर"
+            },
+            {
+                "code": "SHIVPURI",
+                "name": "शिवपुरी"
+            },
+            {
+                "code": "SIDHI",
+                "name": "सीधी"
+            },
+            {
+                "code": "SINGRAULI",
+                "name": "सिंगरौली"
+            },
+            {
+                "code": "TIKAMGARH",
+                "name": "टीकमगढ़"
+            },
+            {
+                "code": "UJJAIN",
+                "name": "उज्जैन"
+            },
+            {
+                "code": "UMARIA",
+                "name": "उमरिया"
+            },
+            {
+                "code": "VIDISHA",
+                "name": "विदिशा"
+            }
+        ]
+    },
+    {
+        "code": "MH",
+        "name": "महाराष्ट्र",
+        "districts": [
+            {
+                "code": "AHMEDNAGAR",
+                "name": "अहमदनगर"
+            },
+            {
+                "code": "AKOLA",
+                "name": "अकोला"
+            },
+            {
+                "code": "AMRAVATI",
+                "name": "अमरावती"
+            },
+            {
+                "code": "BEED",
+                "name": "बीड"
+            },
+            {
+                "code": "BHANDARA",
+                "name": "भंडारा"
+            },
+            {
+                "code": "BULDHANA",
+                "name": "बुलढाणा"
+            },
+            {
+                "code": "CHANDRAPUR",
+                "name": "चंद्रपुर"
+            },
+            {
+                "code": "DHULE",
+                "name": "धुले"
+            },
+            {
+                "code": "GADCHIROLI",
+                "name": "गढ़चिरौली"
+            },
+            {
+                "code": "GONDIA",
+                "name": "गोंदिया"
+            },
+            {
+                "code": "HINGOLI",
+                "name": "हिंगोली"
+            },
+            {
+                "code": "JALGAON",
+                "name": "जलगांव"
+            },
+            {
+                "code": "JALNA",
+                "name": "जालना"
+            },
+            {
+                "code": "KOLHAPUR",
+                "name": "कोल्हापुर"
+            },
+            {
+                "code": "LATUR",
+                "name": "लातूर"
+            },
+            {
+                "code": "MUMBAI_CITY",
+                "name": "मुंबई शहर"
+            },
+            {
+                "code": "MUMBAI_SUBURBAN",
+                "name": "मुंबई उपनगरीय"
+            },
+            {
+                "code": "NAGPUR",
+                "name": "नागपुर"
+            },
+            {
+                "code": "NANDED",
+                "name": "नांदेड़"
+            },
+            {
+                "code": "NANDURBAR",
+                "name": "नंदुरबार"
+            },
+            {
+                "code": "NASHIK",
+                "name": "नासिक"
+            },
+            {
+                "code": "OSMANABAD",
+                "name": "उस्मानाबाद"
+            },
+            {
+                "code": "PALGHAR",
+                "name": "पालघर"
+            },
+            {
+                "code": "PARBHANI",
+                "name": "परभणी"
+            },
+            {
+                "code": "PUNE",
+                "name": "पुणे"
+            },
+            {
+                "code": "RAIGAD",
+                "name": "रायगढ़"
+            },
+            {
+                "code": "RATNAGIRI",
+                "name": "रत्नागिरी"
+            },
+            {
+                "code": "SANGLI",
+                "name": "सांगली"
+            },
+            {
+                "code": "SATARA",
+                "name": "सातारा"
+            },
+            {
+                "code": "SINDHUDURG",
+                "name": "सिंधुदुर्ग"
+            },
+            {
+                "code": "SOLAPUR",
+                "name": "सोलापूर"
+            },
+            {
+                "code": "THANE",
+                "name": "ठाणे"
+            },
+            {
+                "code": "WARDHA",
+                "name": "वर्धा"
+            },
+            {
+                "code": "WASHIM",
+                "name": "वाशीम"
+            },
+            {
+                "code": "YAVATMAL",
+                "name": "यवतमाल"
+            }
+        ]
+    },
+    {
+        "code": "MN",
+        "name": "मणिपुर",
+        "districts": [
+            {
+                "code": "BISHNUPUR",
+                "name": "बिष्णुपुर"
+            },
+            {
+                "code": "CHANDEL",
+                "name": "चंदेल"
+            },
+            {
+                "code": "CHURACHANDPUR",
+                "name": "चुराचांदपुर"
+            },
+            {
+                "code": "IMPHAL_EAST",
+                "name": "पूर्वी इम्फाल"
+            },
+            {
+                "code": "IMPHAL_WEST",
+                "name": "पश्चिमी इम्फाल"
+            },
+            {
+                "code": "JIRIBAM",
+                "name": "जिरीबाम"
+            },
+            {
+                "code": "KAKCHING",
+                "name": "काकचिंग"
+            },
+            {
+                "code": "KAMJONG",
+                "name": "कामजोंग"
+            },
+            {
+                "code": "KANGPOKPI",
+                "name": "कांगपोकपी"
+            },
+            {
+                "code": "NONEY",
+                "name": "नोनी"
+            },
+            {
+                "code": "PHERZAWL",
+                "name": "फेरजावल"
+            },
+            {
+                "code": "SENAPATI",
+                "name": "सेनापति"
+            },
+            {
+                "code": "TAMENGLONG",
+                "name": "तामेंगलोंग"
+            },
+            {
+                "code": "TENGNOUPAL",
+                "name": "तेग्नौपाल"
+            },
+            {
+                "code": "THOUBAL",
+                "name": "थौबल"
+            },
+            {
+                "code": "UKHRUL",
+                "name": "उखरुल"
+            }
+        ]
+    },
+    {
+        "code": "ML",
+        "name": "मेघालय",
+        "districts": [
+            {
+                "code": "EAST_GARO_HILLS",
+                "name": "पूर्वी गारो हिल्स"
+            },
+            {
+                "code": "EAST_JAINTIA_HILLS",
+                "name": "पूर्वी जयंतिया हिल्स"
+            },
+            {
+                "code": "EAST_KHASI_HILLS",
+                "name": "पूर्वी खासी हिल्स"
+            },
+            {
+                "code": "NORTH_GARO_HILLS",
+                "name": "उत्तरी गारो हिल्स"
+            },
+            {
+                "code": "RI_BHOI",
+                "name": "री भोई"
+            },
+            {
+                "code": "SOUTH_GARO_HILLS",
+                "name": "दक्षिण गारो हिल्स"
+            },
+            {
+                "code": "SOUTH_WEST_GARO_HILLS",
+                "name": "दक्षिण पश्चिम गारो हिल्स"
+            },
+            {
+                "code": "SOUTH_WEST_KHASI_HILLS",
+                "name": "दक्षिण पश्चिम खासी हिल्स"
+            },
+            {
+                "code": "WEST_GARO_HILLS",
+                "name": "पश्चिमी गारो हिल्स"
+            },
+            {
+                "code": "WEST_JAINTIA_HILLS",
+                "name": "पश्चिमी जयंतिया हिल्स"
+            },
+            {
+                "code": "WEST_KHASI_HILLS",
+                "name": "पश्चिमी खासी हिल्स"
+            },
+            {
+                "code": "EASTERN_WEST_KHASI_HILLS",
+                "name": "पूर्वी पश्चिमी खासी हिल्स"
+            }
+        ]
+    },
+    {
+        "code": "MZ",
+        "name": "मिजोरम",
+        "districts": [
+            {
+                "code": "AIZAWL",
+                "name": "आइजोल"
+            },
+            {
+                "code": "CHAMPHAI",
+                "name": "चम्फाई"
+            },
+            {
+                "code": "HNAHTHIAL",
+                "name": "हनाथियाल"
+            },
+            {
+                "code": "KHAWZAWL",
+                "name": "खावजावल"
+            },
+            {
+                "code": "KOLASIB",
+                "name": "कोलासिब"
+            },
+            {
+                "code": "LAWNGTLAI",
+                "name": "लोंगत्लाई"
+            },
+            {
+                "code": "LUNGLEI",
+                "name": "लुंगलेई"
+            },
+            {
+                "code": "MAMIT",
+                "name": "मामit"
+            },
+            {
+                "code": "SAITUAL",
+                "name": "सैतुअल"
+            },
+            {
+                "code": "SERCHHIP",
+                "name": "सेरछिप"
+            },
+            {
+                "code": "SIAHA",
+                "name": "सियाहा"
+            }
+        ]
+    },
+    {
+        "code": "NL",
+        "name": "नागालैंड",
+        "districts": [
+            {
+                "code": "CHUMOUKEDIMA",
+                "name": "चुमौकेदिमा"
+            },
+            {
+                "code": "DIMAPUR",
+                "name": "दीमापुर"
+            },
+            {
+                "code": "KIPHIRE",
+                "name": "किफिरे"
+            },
+            {
+                "code": "KOHIMA",
+                "name": "कोहिमा"
+            },
+            {
+                "code": "LONGLENG",
+                "name": "लोंगलेग"
+            },
+            {
+                "code": "MOKOKCHUNG",
+                "name": "मोकोकचुंग"
+            },
+            {
+                "code": "MON",
+                "name": "मोन"
+            },
+            {
+                "code": "NIULAND",
+                "name": "निशुलैंड"
+            },
+            {
+                "code": "NOKLAK",
+                "name": "नोक्लाक"
+            },
+            {
+                "code": "PEREN",
+                "name": "पेरेन"
+            },
+            {
+                "code": "PHEK",
+                "name": "फेक"
+            },
+            {
+                "code": "SHAMATOR",
+                "name": "शमाटोर"
+            },
+            {
+                "code": "TSEMINYU",
+                "name": "त्सेमिन्यु"
+            },
+            {
+                "code": "TUENSANG",
+                "name": "तुएनसांग"
+            },
+            {
+                "code": "WOKHA",
+                "name": "वखा"
+            },
+            {
+                "code": "ZUNHEBOTO",
+                "name": "ज़ुन्हेबोटो"
+            }
+        ]
+    },
+    {
+        "code": "OR",
+        "name": "ओडिशा",
+        "districts": [
+            {
+                "code": "ANGUL",
+                "name": "अनुगुल"
+            },
+            {
+                "code": "BALANGIR",
+                "name": "बलांगीर"
+            },
+            {
+                "code": "BALASORE",
+                "name": "बालासोर"
+            },
+            {
+                "code": "BARGARH",
+                "name": "बरगढ़"
+            },
+            {
+                "code": "BHADRAK",
+                "name": "भद्रक"
+            },
+            {
+                "code": "BOUDH",
+                "name": "बौद्ध"
+            },
+            {
+                "code": "CUTTACK",
+                "name": "कटक"
+            },
+            {
+                "code": "DEOGARH",
+                "name": "देवगढ़"
+            },
+            {
+                "code": "DHENKANAL",
+                "name": "धेनकनाल"
+            },
+            {
+                "code": "GAJAPATI",
+                "name": "गजपति"
+            },
+            {
+                "code": "GANJAM",
+                "name": "गंजम"
+            },
+            {
+                "code": "JAGATSINGHPUR",
+                "name": "जगतसिंहपुर"
+            },
+            {
+                "code": "JAJPUR",
+                "name": "जाजपुर"
+            },
+            {
+                "code": "JHARSUGUDA",
+                "name": "झारसुगुड़ा"
+            },
+            {
+                "code": "KALAHANDI",
+                "name": "कालाहांडी"
+            },
+            {
+                "code": "KANDHAMAL",
+                "name": "कंधमाल"
+            },
+            {
+                "code": "KENDRAPARA",
+                "name": "केंद्रपड़ा"
+            },
+            {
+                "code": "KENDUJHAR",
+                "name": "क्योंझर"
+            },
+            {
+                "code": "KHORDHA",
+                "name": "खोर्धा"
+            },
+            {
+                "code": "KORAPUT",
+                "name": "कोरापुट"
+            },
+            {
+                "code": "MALKANGIRI",
+                "name": "मलकानगिरी"
+            },
+            {
+                "code": "MAYURBHANJ",
+                "name": "मयूरभंज"
+            },
+            {
+                "code": "NABARANGPUR",
+                "name": "नबरंगपुर"
+            },
+            {
+                "code": "NAYAGARH",
+                "name": "नयागढ़"
+            },
+            {
+                "code": "NUAPADA",
+                "name": "नुआपाड़ा"
+            },
+            {
+                "code": "PURI",
+                "name": "पुरी"
+            },
+            {
+                "code": "RAYAGADA",
+                "name": "रायगढ़ा"
+            },
+            {
+                "code": "SAMBALPUR",
+                "name": "संबलपुर"
+            },
+            {
+                "code": "SUBARNAPUR",
+                "name": "सुवर्णपुर"
+            },
+            {
+                "code": "SUNDARGARH",
+                "name": "सुंदरगढ़"
+            }
+        ]
+    },
+    {
+        "code": "PY",
+        "name": "पुदुचेरी",
+        "districts": [
+            {
+                "code": "KARAIKAL",
+                "name": "कराईकल"
+            },
+            {
+                "code": "MAHE",
+                "name": "माहे"
+            },
+            {
+                "code": "PUDUCHERRY",
+                "name": "पुदुचेरी"
+            },
+            {
+                "code": "YANAM",
+                "name": "यानाम"
+            }
+        ]
+    },
+    {
+        "code": "PB",
+        "name": "पंजाब",
+        "districts": [
+            {
+                "code": "AMRITSAR",
+                "name": "अमृतसर"
+            },
+            {
+                "code": "BARNALA",
+                "name": "बरनाला"
+            },
+            {
+                "code": "BATHINDA",
+                "name": "बठिंडा"
+            },
+            {
+                "code": "FARIDKOT",
+                "name": "फरीदकोट"
+            },
+            {
+                "code": "FATEHGARH_SAHIB",
+                "name": "फतेहगढ़ साहिब"
+            },
+            {
+                "code": "FAZILKA",
+                "name": "फाजिल्का"
+            },
+            {
+                "code": "FEROZEPUR",
+                "name": "फिरोजपुर"
+            },
+            {
+                "code": "GURDASPUR",
+                "name": "गुरदासपुर"
+            },
+            {
+                "code": "HOSHIARPUR",
+                "name": "होशियारपुर"
+            },
+            {
+                "code": "JALANDHAR",
+                "name": "जालंधर"
+            },
+            {
+                "code": "KAPURTHALA",
+                "name": "कपूरथला"
+            },
+            {
+                "code": "LUDHIANA",
+                "name": "लुधियाना"
+            },
+            {
+                "code": "MALERKOTLA",
+                "name": "मालेरकोटला"
+            },
+            {
+                "code": "MANSA",
+                "name": "मानसा"
+            },
+            {
+                "code": "MOGA",
+                "name": "मोगा"
+            },
+            {
+                "code": "MUKTSAR",
+                "name": "मुक्तसर"
+            },
+            {
+                "code": "PATHANKOT",
+                "name": "पठानकोट"
+            },
+            {
+                "code": "PATIALA",
+                "name": "पटियाला"
+            },
+            {
+                "code": "RUPNAGAR",
+                "name": "रूपनगर"
+            },
+            {
+                "code": "SANGRUR",
+                "name": "संगरूर"
+            },
+            {
+                "code": "SAS_NAGAR",
+                "name": "एसएएस नगर"
+            },
+            {
+                "code": "SBS_NAGAR",
+                "name": "एसबीएस नगर"
+            },
+            {
+                "code": "TARN_TARAN",
+                "name": "तरनतारन"
+            }
+        ]
+    },
+    {
+        "code": "RJ",
+        "name": "राजस्थान",
+        "districts": [
+            {
+                "code": "AJMER",
+                "name": "अजमेर"
+            },
+            {
+                "code": "ALWAR",
+                "name": "अलवर"
+            },
+            {
+                "code": "ANUPGARH",
+                "name": "अनूपगढ़"
+            },
+            {
+                "code": "BALOTRA",
+                "name": "बालोतरा"
+            },
+            {
+                "code": "BANSWARA",
+                "name": "बांसवाड़ा"
+            },
+            {
+                "code": "BARAN",
+                "name": "बारां"
+            },
+            {
+                "code": "BARMER",
+                "name": "बाड़मेर"
+            },
+            {
+                "code": "BEAWAR",
+                "name": "ब्यावर"
+            },
+            {
+                "code": "BHARATPUR",
+                "name": "भरतपुर"
+            },
+            {
+                "code": "BHILWARA",
+                "name": "भीलवाड़ा"
+            },
+            {
+                "code": "BIKANER",
+                "name": "बीकानेर"
+            },
+            {
+                "code": "BUNDI",
+                "name": "बूंदी"
+            },
+            {
+                "code": "CHITTORGARH",
+                "name": "चित्तौड़गढ़"
+            },
+            {
+                "code": "CHURU",
+                "name": "चूरू"
+            },
+            {
+                "code": "DAUSA",
+                "name": "दौसा"
+            },
+            {
+                "code": "DEEG",
+                "name": "डीग"
+            },
+            {
+                "code": "DHOLPUR",
+                "name": "धौलपुर"
+            },
+            {
+                "code": "DIDWANA_KUCHAMAN",
+                "name": "डीडवाना-कुचामन"
+            },
+            {
+                "code": "DUDU",
+                "name": "दूदू"
+            },
+            {
+                "code": "DUNGARPUR",
+                "name": "डूंगरपुर"
+            },
+            {
+                "code": "GANGANAGAR",
+                "name": "गंगानगर"
+            },
+            {
+                "code": "GANGAPUR_CITY",
+                "name": "गंगापुर सिटी"
+            },
+            {
+                "code": "HANUMANGARH",
+                "name": "हनुमानगढ़"
+            },
+            {
+                "code": "JAIPUR",
+                "name": "जयपुर"
+            },
+            {
+                "code": "JAIPUR_RURAL",
+                "name": "जयपुर ग्रामीण"
+            },
+            {
+                "code": "JAISALMER",
+                "name": "जैसलमेर"
+            },
+            {
+                "code": "JALORE",
+                "name": "जालोर"
+            },
+            {
+                "code": "JHALAWAR",
+                "name": "झालावाड़"
+            },
+            {
+                "code": "JHUNJHUNU",
+                "name": "झुंझुनू"
+            },
+            {
+                "code": "JODHPUR",
+                "name": "जोधपुर"
+            },
+            {
+                "code": "JODHPUR_RURAL",
+                "name": "जोधपुर ग्रामीण"
+            },
+            {
+                "code": "KARAULI",
+                "name": "करौली"
+            },
+            {
+                "code": "KEKRI",
+                "name": "केकड़ी"
+            },
+            {
+                "code": "KHAIRTHAL_TIJARA",
+                "name": "खैरथल-तिजारा"
+            },
+            {
+                "code": "KOTA",
+                "name": "कोटा"
+            },
+            {
+                "code": "KOTPUTLI_BEHROR",
+                "name": "कोटपूतली-बहरोड़"
+            },
+            {
+                "code": "NAGAUR",
+                "name": "नागौर"
+            },
+            {
+                "code": "NEEM_KA_THANA",
+                "name": "नीम का थाना"
+            },
+            {
+                "code": "PALI",
+                "name": "पाली"
+            },
+            {
+                "code": "PHALODI",
+                "name": "फलोदी"
+            },
+            {
+                "code": "PRATAPGARH",
+                "name": "प्रतापगढ़"
+            },
+            {
+                "code": "RAJSAMAND",
+                "name": "राजसमंद"
+            },
+            {
+                "code": "SALUMBAR",
+                "name": "सलूंबर"
+            },
+            {
+                "code": "SANCHORE",
+                "name": "सांचोर"
+            },
+            {
+                "code": "SAWAI_MADHOPUR",
+                "name": "सवाई माधोपुर"
+            },
+            {
+                "code": "SHAHPURA",
+                "name": "शाहपुरा"
+            },
+            {
+                "code": "SIKAR",
+                "name": "सीकर"
+            },
+            {
+                "code": "SIROHI",
+                "name": "सिरोही"
+            },
+            {
+                "code": "TONK",
+                "name": "टोंक"
+            },
+            {
+                "code": "UDAIPUR",
+                "name": "उदयपुर"
+            }
+        ]
+    },
+    {
+        "code": "SK",
+        "name": "सिक्किम",
+        "districts": [
+            {
+                "code": "EAST_SIKKIM",
+                "name": "पूर्वी सिक्किम"
+            },
+            {
+                "code": "NORTH_SIKKIM",
+                "name": "उत्तरी सिक्किम"
+            },
+            {
+                "code": "PAKYONG",
+                "name": "पाकिम"
+            },
+            {
+                "code": "SORENG",
+                "name": "सोरेन्ग"
+            },
+            {
+                "code": "SOUTH_SIKKIM",
+                "name": "दक्षिण सिक्किम"
+            },
+            {
+                "code": "WEST_SIKKIM",
+                "name": "पश्चिमी सिक्किम"
+            }
+        ]
+    },
+    {
+        "code": "TN",
+        "name": "तमिलनाडु",
+        "districts": [
+            {
+                "code": "ARIYALUR",
+                "name": "अरियालुर"
+            },
+            {
+                "code": "CHENGALPATTU",
+                "name": "चेंगलपट्टू"
+            },
+            {
+                "code": "CHENNAI",
+                "name": "चेन्नई"
+            },
+            {
+                "code": "COIMBATORE",
+                "name": "कोयंबटूर"
+            },
+            {
+                "code": "CUDDALORE",
+                "name": "कुड्डालोर"
+            },
+            {
+                "code": "DHARMAPURI",
+                "name": "धर्मपुरी"
+            },
+            {
+                "code": "DINDIGUL",
+                "name": "डिंडीगुल"
+            },
+            {
+                "code": "ERODE",
+                "name": "इरोड"
+            },
+            {
+                "code": "KALLAKURICHI",
+                "name": "कल्लकुरichi"
+            },
+            {
+                "code": "KANCHIPURAM",
+                "name": "कांचीपुरम"
+            },
+            {
+                "code": "KANYAKUMARI",
+                "name": "कन्याकुमारी"
+            },
+            {
+                "code": "KARUR",
+                "name": "करूर"
+            },
+            {
+                "code": "KRISHNAGIRI",
+                "name": "कृष्णगिरि"
+            },
+            {
+                "code": "MADURAI",
+                "name": "मदुरै"
+            },
+            {
+                "code": "MAYILADUTHURAI",
+                "name": "मयीलादुथुराई"
+            },
+            {
+                "code": "NAGAPATTINAM",
+                "name": "नागपट्टिनम"
+            },
+            {
+                "code": "NAMAKKAL",
+                "name": "नामक्कल"
+            },
+            {
+                "code": "NILGIRIS",
+                "name": "नीलगिरि"
+            },
+            {
+                "code": "PERAMBALUR",
+                "name": "पेरंबलूर"
+            },
+            {
+                "code": "PUDUKKOTTAI",
+                "name": "पुदुक्कोट्टै"
+            },
+            {
+                "code": "RAMANATHAPURAM",
+                "name": "रामनाथपुरम"
+            },
+            {
+                "code": "RANIPET",
+                "name": "रानीपेट"
+            },
+            {
+                "code": "SALEM",
+                "name": "सेलम"
+            },
+            {
+                "code": "SIVAGANGA",
+                "name": "शिवगंगा"
+            },
+            {
+                "code": "TENKASI",
+                "name": "तेनकासी"
+            },
+            {
+                "code": "THANJAVUR",
+                "name": "तंजावुर"
+            },
+            {
+                "code": "THENI",
+                "name": "थेनी"
+            },
+            {
+                "code": "THOOTHUKUDI",
+                "name": "थूथुकुड़ी"
+            },
+            {
+                "code": "TIRUCHIRAPPALLI",
+                "name": "तिरुचिरापल्ली"
+            },
+            {
+                "code": "TIRUNELVELI",
+                "name": "तिरुनेलवेली"
+            },
+            {
+                "code": "TIRUPATHUR",
+                "name": "तिरुप्तूर"
+            },
+            {
+                "code": "TIRUPPUR",
+                "name": "तिरुप्पुर"
+            },
+            {
+                "code": "TIRUVALLUR",
+                "name": "तिरुवल्लूर"
+            },
+            {
+                "code": "TIRUVANNAMALAI",
+                "name": "तिरुवन्नामलाई"
+            },
+            {
+                "code": "TIRUVARUR",
+                "name": "तिरुवरूर"
+            },
+            {
+                "code": "VELLORE",
+                "name": "वेल्लोर"
+            },
+            {
+                "code": "VILUPPURAM",
+                "name": "विल्लुपुरम"
+            },
+            {
+                "code": "VIRUDHUNAGAR",
+                "name": "विरुद्धनगर"
+            }
+        ]
+    },
+    {
+        "code": "TS",
+        "name": "तेलंगाना",
+        "districts": [
+            {
+                "code": "ADILABAD",
+                "name": "आदिलाबाद"
+            },
+            {
+                "code": "BHADRADRI_KOTHAGUDEM",
+                "name": "भद्रद्री कोठागुडेम"
+            },
+            {
+                "code": "HYDERABAD",
+                "name": "हैदराबाद"
+            },
+            {
+                "code": "JAGTIAL",
+                "name": "जगित्याल"
+            },
+            {
+                "code": "JANGAON",
+                "name": "जनगांव"
+            },
+            {
+                "code": "JAYASHANKAR_BHUPALPALLY",
+                "name": "जयशंकर भूपालपल्ली"
+            },
+            {
+                "code": "JOGULAMBA_GADWAL",
+                "name": "जोगुलम्बा गडवाल"
+            },
+            {
+                "code": "KAMAREDDY",
+                "name": "कामारेड्डी"
+            },
+            {
+                "code": "KARIMNAGAR",
+                "name": "करीमनगर"
+            },
+            {
+                "code": "KHAMMAM",
+                "name": "खम्मम"
+            },
+            {
+                "code": "KOMARAM_BHEEM",
+                "name": "कोमाराम भीम"
+            },
+            {
+                "code": "MAHABUBABAD",
+                "name": "महबूबाबाद"
+            },
+            {
+                "code": "MAHABUBNAGAR",
+                "name": "महबूबनगर"
+            },
+            {
+                "code": "MANCHERIAL",
+                "name": "मंचिरियाल"
+            },
+            {
+                "code": "MEDAK",
+                "name": "मेडक"
+            },
+            {
+                "code": "MEDCHAL_MALKAJGIRI",
+                "name": "मेचल-मलकजगिरि"
+            },
+            {
+                "code": "MULUGU",
+                "name": "मुलुगु"
+            },
+            {
+                "code": "NAGARKURNOOL",
+                "name": "नागरकुर्नूल"
+            },
+            {
+                "code": "NALGONDA",
+                "name": "नलगोंडा"
+            },
+            {
+                "code": "NARAYANPET",
+                "name": "नारायणपेट"
+            },
+            {
+                "code": "NIRMAL",
+                "name": "निर्मल"
+            },
+            {
+                "code": "NIZAMABAD",
+                "name": "निजामाबाद"
+            },
+            {
+                "code": "PEDDAPALLI",
+                "name": "पेद्दापल्ली"
+            },
+            {
+                "code": "RAJANNA_SIRCILLA",
+                "name": "राजन्ना सिरसिला"
+            },
+            {
+                "code": "RANGAREDDY",
+                "name": "रंगारेड्डी"
+            },
+            {
+                "code": "SANGAREDDY",
+                "name": "संगारेड्डी"
+            },
+            {
+                "code": "SIDDIPET",
+                "name": "सिद्दीपेट"
+            },
+            {
+                "code": "SURYAPET",
+                "name": "सूर्यापेट"
+            },
+            {
+                "code": "VIKARABAD",
+                "name": "विकाराबाद"
+            },
+            {
+                "code": "WANAPARTHY",
+                "name": "वनपर्धी"
+            },
+            {
+                "code": "WARANGAL",
+                "name": "वारंगल"
+            },
+            {
+                "code": "HANAMKONDA",
+                "name": "हनमकोंडा"
+            },
+            {
+                "code": "YADADRI_BHUVANAGIRI",
+                "name": "यादाद्री भुवनगिरी"
+            }
+        ]
+    },
+    {
+        "code": "TR",
+        "name": "त्रिपुरा",
+        "districts": [
+            {
+                "code": "DHALAI",
+                "name": "धलाई"
+            },
+            {
+                "code": "GOMATI",
+                "name": "गोमती"
+            },
+            {
+                "code": "KHOWAI",
+                "name": "खोवाई"
+            },
+            {
+                "code": "NORTH_TRIPURA",
+                "name": "उत्तरी त्रिपुरा"
+            },
+            {
+                "code": "SEPAHIJALA",
+                "name": "सिपाहिजाला"
+            },
+            {
+                "code": "SOUTH_TRIPURA",
+                "name": "दक्षिणी त्रिपुरा"
+            },
+            {
+                "code": "UNAKOTI",
+                "name": "उनाकोटी"
+            },
+            {
+                "code": "WEST_TRIPURA",
+                "name": "पश्चिमी त्रिपुरा"
+            }
+        ]
+    },
+    {
+        "code": "UP",
+        "name": "उत्तर प्रदेश",
+        "districts": [
+            {
+                "code": "AGRA",
+                "name": "आगरा"
+            },
+            {
+                "code": "ALIGARH",
+                "name": "अलीगढ़"
+            },
+            {
+                "code": "AMBEDKAR_NAGAR",
+                "name": "अंबेडकर नगर"
+            },
+            {
+                "code": "AMETHI",
+                "name": "अमेठी"
+            },
+            {
+                "code": "AMROHA",
+                "name": "अमरोहा"
+            },
+            {
+                "code": "AURAIYA",
+                "name": "औरैया"
+            },
+            {
+                "code": "AYODHYA",
+                "name": "अयोध्या"
+            },
+            {
+                "code": "AZAMGARH",
+                "name": "आजमगढ़"
+            },
+            {
+                "code": "BAGHPAT",
+                "name": "बागपत"
+            },
+            {
+                "code": "BAHRAICH",
+                "name": "ब बहराइच"
+            },
+            {
+                "code": "BALLIA",
+                "name": "बलिया"
+            },
+            {
+                "code": "BALRAMPUR",
+                "name": "बलरामपुर"
+            },
+            {
+                "code": "BANDA",
+                "name": "बांदा"
+            },
+            {
+                "code": "BARABANKI",
+                "name": "बाराबंकी"
+            },
+            {
+                "code": "BAREILLY",
+                "name": "बरेली"
+            },
+            {
+                "code": "BASTI",
+                "name": "बस्ती"
+            },
+            {
+                "code": "BHADOHI",
+                "name": "भदोही"
+            },
+            {
+                "code": "BIJNOR",
+                "name": "बिजनौर"
+            },
+            {
+                "code": "BUDAUN",
+                "name": "बदायूं"
+            },
+            {
+                "code": "BULANDSHAHR",
+                "name": "बुलंदशहर"
+            },
+            {
+                "code": "CHANDAULI",
+                "name": "चंदौली"
+            },
+            {
+                "code": "CHITRAKOOT",
+                "name": "चित्रकूट"
+            },
+            {
+                "code": "DEORIA",
+                "name": "देवरिया"
+            },
+            {
+                "code": "ETAH",
+                "name": "एटा"
+            },
+            {
+                "code": "ETAWAH",
+                "name": "इटावा"
+            },
+            {
+                "code": "FARRUKHABAD",
+                "name": "फर्रुखाबाद"
+            },
+            {
+                "code": "FATEHPUR",
+                "name": "फतेहपुर"
+            },
+            {
+                "code": "FIROZABAD",
+                "name": "फिरोजाबाद"
+            },
+            {
+                "code": "GAUTAM_BUDDHA_NAGAR",
+                "name": "गौतम बुद्ध नगर"
+            },
+            {
+                "code": "GHAZIABAD",
+                "name": "गाजियाबाद"
+            },
+            {
+                "code": "GHAZIPUR",
+                "name": "गाजीपुर"
+            },
+            {
+                "code": "GONDA",
+                "name": "गोंडा"
+            },
+            {
+                "code": "GORAKHPUR",
+                "name": "गोरखपुर"
+            },
+            {
+                "code": "HAMIRPUR",
+                "name": "हमीरपुर"
+            },
+            {
+                "code": "HAPUR",
+                "name": "हापुड़"
+            },
+            {
+                "code": "HARDOI",
+                "name": "हरदोई"
+            },
+            {
+                "code": "HATHRAS",
+                "name": "हाथरस"
+            },
+            {
+                "code": "JALAUN",
+                "name": "जालौन"
+            },
+            {
+                "code": "JAUNPUR",
+                "name": "जौनपुर"
+            },
+            {
+                "code": "JHANSI",
+                "name": "झांसी"
+            },
+            {
+                "code": "KANNAUJ",
+                "name": "कन्नौज"
+            },
+            {
+                "code": "KANPUR_DEHAT",
+                "name": "कानपुर देहात"
+            },
+            {
+                "code": "KANPUR_NAGAR",
+                "name": "कानपुर नगर"
+            },
+            {
+                "code": "KASGANJ",
+                "name": "कासगंज"
+            },
+            {
+                "code": "KAUSHAMBI",
+                "name": "कौशांबी"
+            },
+            {
+                "code": "KHERI",
+                "name": "खीरी"
+            },
+            {
+                "code": "KUSHINAGAR",
+                "name": "कुशीनगर"
+            },
+            {
+                "code": "LALITPUR",
+                "name": "ललितपुर"
+            },
+            {
+                "code": "LUCKNOW",
+                "name": "लखनऊ"
+            },
+            {
+                "code": "MAHARAJGANJ",
+                "name": "महराजगंज"
+            },
+            {
+                "code": "MAHOBA",
+                "name": "महोबा"
+            },
+            {
+                "code": "MAINPURI",
+                "name": "मैनपुरी"
+            },
+            {
+                "code": "MATHURA",
+                "name": "मथुरा"
+            },
+            {
+                "code": "MAU",
+                "name": "मऊ"
+            },
+            {
+                "code": "MEERUT",
+                "name": "मेरठ"
+            },
+            {
+                "code": "MIRZAPUR",
+                "name": "मिर्ज़ापुर"
+            },
+            {
+                "code": "MORADABAD",
+                "name": "मुरादाबाद"
+            },
+            {
+                "code": "MUZAFFARNAGAR",
+                "name": "मुजफ्फरनगर"
+            },
+            {
+                "code": "PILIBHIT",
+                "name": "पीलीभीत"
+            },
+            {
+                "code": "PRATAPGARH",
+                "name": "प्रतापगढ़"
+            },
+            {
+                "code": "PRAYAGRAJ",
+                "name": "प्रयागराज"
+            },
+            {
+                "code": "RAEBARELI",
+                "name": "रायबरेली"
+            },
+            {
+                "code": "RAMPUR",
+                "name": "रामपुर"
+            },
+            {
+                "code": "SAHARANPUR",
+                "name": "सहारनपुर"
+            },
+            {
+                "code": "SAMBHAL",
+                "name": "संभल"
+            },
+            {
+                "code": "SANT_KABIR_NAGAR",
+                "name": "संत कबीर नगर"
+            },
+            {
+                "code": "SHAHJAHANPUR",
+                "name": "शाहजहांपुर"
+            },
+            {
+                "code": "SHAMLI",
+                "name": "शामली"
+            },
+            {
+                "code": "SHRAWASTI",
+                "name": "श्रावस्ती"
+            },
+            {
+                "code": "SIDDHARTHNAGAR",
+                "name": "सिद्धार्थनगर"
+            },
+            {
+                "code": "SITAPUR",
+                "name": "सीतापुर"
+            },
+            {
+                "code": "SONBHADRA",
+                "name": "सोनभद्र"
+            },
+            {
+                "code": "SULTANPUR",
+                "name": "सुल्तानपुर"
+            },
+            {
+                "code": "UNNAO",
+                "name": "उन्नाव"
+            },
+            {
+                "code": "VARANASI",
+                "name": "वाराणसी"
+            }
+        ]
+    },
+    {
+        "code": "UK",
+        "name": "उत्तराखंड",
+        "districts": [
+            {
+                "code": "ALMORA",
+                "name": "अल्मोड़ा"
+            },
+            {
+                "code": "BAGESHWAR",
+                "name": "बागेश्वर"
+            },
+            {
+                "code": "CHAMOLI",
+                "name": "चमोली"
+            },
+            {
+                "code": "CHAMPAWAT",
+                "name": "चंपावत"
+            },
+            {
+                "code": "DEHRADUN",
+                "name": "देहरादून"
+            },
+            {
+                "code": "HARIDWAR",
+                "name": "हरिद्वार"
+            },
+            {
+                "code": "NAINITAL",
+                "name": "नैनीताल"
+            },
+            {
+                "code": "PAURI_GARHWAL",
+                "name": "पौड़ी गढ़वाल"
+            },
+            {
+                "code": "PITHORAGARH",
+                "name": "पिथौरागढ़"
+            },
+            {
+                "code": "RUDRAPRAYAG",
+                "name": "रुद्रप्रयाग"
+            },
+            {
+                "code": "TEHRI_GARHWAL",
+                "name": "टिहरी गढ़वाल"
+            },
+            {
+                "code": "UDHAM_SINGH_NAGAR",
+                "name": "उधम सिंह नगर"
+            },
+            {
+                "code": "UTTARKASHI",
+                "name": "उत्तरकाशी"
+            }
+        ]
+    },
+    {
+        "code": "WB",
+        "name": "पश्चिम बंगाल",
+        "districts": [
+            {
+                "code": "ALIPURDUAR",
+                "name": "अलीपुरद्वार"
+            },
+            {
+                "code": "BANKURA",
+                "name": "बांकुरा"
+            },
+            {
+                "code": "BIRBHUM",
+                "name": "बीरभूम"
+            },
+            {
+                "code": "COOCH_BEHAR",
+                "name": "कूचबिहार"
+            },
+            {
+                "code": "DAKSHIN_DINAJPUR",
+                "name": "दक्षिण দিনাজপুর"
+            },
+            {
+                "code": "DARJEELING",
+                "name": "दार्जिलिंग"
+            },
+            {
+                "code": "HOOGHLY",
+                "name": "हुगली"
+            },
+            {
+                "code": "HOWRAH",
+                "name": "हावड़ा"
+            },
+            {
+                "code": "JALPAIGURI",
+                "name": "जलपाईगुड़ी"
+            },
+            {
+                "code": "JHARGRAM",
+                "name": "झारग्राम"
+            },
+            {
+                "code": "KALIMPONG",
+                "name": "कलिम्पोंग"
+            },
+            {
+                "code": "KOLKATA",
+                "name": "कोलकाता"
+            },
+            {
+                "code": "MALDA",
+                "name": "मालदा"
+            },
+            {
+                "code": "MURSHIDABAD",
+                "name": "मुर्शिदाबाद"
+            },
+            {
+                "code": "NADIA",
+                "name": "नदिया"
+            },
+            {
+                "code": "NORTH_24_PARGANAS",
+                "name": "उत्तर 24 परगना"
+            },
+            {
+                "code": "PASCHIM_BARDHAMAN",
+                "name": "पश्चिम बर्धमान"
+            },
+            {
+                "code": "PASCHIM_MEDINIPUR",
+                "name": "पश्चिम मेदिनीपुर"
+            },
+            {
+                "code": "PURBA_BARDHAMAN",
+                "name": "पूर्व बर्धमान"
+            },
+            {
+                "code": "PURBA_MEDINIPUR",
+                "name": "पूर्व मेदिनीपुर"
+            },
+            {
+                "code": "PURULIA",
+                "name": "पुरुलिया"
+            },
+            {
+                "code": "SOUTH_24_PARGANAS",
+                "name": "दक्षिण 24 परगना"
+            },
+            {
+                "code": "UTTAR_DINAJPUR",
+                "name": "उत्तर দিনাজপুর"
+            }
+        ]
+    }
+]
