@@ -54,6 +54,12 @@ Use this exact structure, with these exact headings:
 
 [Department or government authority]
 
+### {L['steps']}
+
+1. [First action]
+2. [Second action]
+3. [Continue in the correct order until completion]
+
 ### {L['elig']}
 
 * [Eligibility requirement]
@@ -65,11 +71,6 @@ Use this exact structure, with these exact headings:
 * [Document name]
 * [Accepted alternatives or special instructions, if applicable]
 
-### {L['steps']}
-
-1. [First action]
-2. [Second action]
-3. [Continue in the correct order until completion]
 
 Rules:
 
