@@ -70,6 +70,7 @@ if need and state and dist:
             st.markdown(response)
 
             with st.spinner(t["audio"]):
+                st.text("Here is audio result:")
                 st.audio(uSP.speak(response))
 
         except Exception as e:
